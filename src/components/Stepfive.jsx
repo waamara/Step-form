@@ -1,9 +1,9 @@
-import React from 'react'
+
 import Lastimport from "../assets/icon-thank-you.svg"
 
 const Stepfive = () => {
     return (
-        <div className='flex flex-col justify-center items-center mt-12'>
+        <div className='flex flex-col justify-center items-center mt-12   bg-white rounded-xl p-4 '>
             <img src={Lastimport}
                 alt="thanks-img"
                 className='w-[70px]' />

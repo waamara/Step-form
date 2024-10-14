@@ -1,8 +1,7 @@
-import React from 'react'
 
 const Stepthree = () => {
     return (
-        <div className='m-12'>
+        <div className='m-12 bg-white rounded-xl p-4 '>
             <p className='font-bold text-3xl mb-2 text-blue-950'>Pick add-ons</p>
             <p className='text-gray-400 w-[250px] text-lg'> Add-ons help enhance your gaming experience. </p>
             <div className='w-[350px] h-[70px] border flex flex-row justify-between items-center  p-3 rounded-xl mt-8 '>

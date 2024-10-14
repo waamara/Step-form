@@ -1,8 +1,6 @@
-import React from 'react'
-
 const Stepone = () => {
   return (
-    <div className='m-12 absolute bg-white rounded-xl p-4 '>
+    <div className='m-12  bg-white rounded-xl p-4 '>
       <p className='font-bold text-2xl mb-2 text-blue-950'>Personal info</p>
       <p className='text-gray-400 w-[250px]'> Please provide your name, email address, and phone number.</p>
       <form action="" className='mt-4'>

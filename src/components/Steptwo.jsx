@@ -1,11 +1,10 @@
-import React from 'react' 
 import ImgA from "../assets/icon-arcade.svg"
 import ImgB from "../assets/icon-advanced.svg" 
 import ImgC from "../assets/icon-pro.svg"
 
 const Steptwo = () => {
     return (
-        <div className='m-12 absolute  bg-white rounded-xl p-4 '>
+        <div className='m-12   bg-white rounded-xl p-4 '>
             <p className='font-bold text-3xl mb-2 text-blue-950'>Select your plan</p>
             <p className='text-gray-400 w-[250px] text-lg'> You have the option of monthly or yearly billing.</p>
             <div className='w-[320px] h-[70px] border flex flex-row p-3 rounded-xl mt-8 '>
