@@ -1,4 +1,4 @@
-const Stepone = () => {
+const Stepone = ({ formData, setFormData, errors }) => {
   return (
     <div className='m-12  bg-white rounded-xl p-4 '>
       <p className='font-bold text-2xl mb-2 text-blue-950'>Personal info</p>

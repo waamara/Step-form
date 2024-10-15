@@ -1,4 +1,3 @@
-import React from 'react';
 import BgImgMobile from "../assets/bg-sidebar-mobile.svg";
 import BgImgDesktop from "../assets/bg-sidebar-desktop.svg";
 

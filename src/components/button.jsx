@@ -1,10 +1,7 @@
-
-const button = () => {
+export default function Button({ onClick, children }) {
     return (
-        <div>
-                <button className='bg-blue-950  mt-6 ml-[270px] text-white w-[100px] h-[50px] rounded '>Next Step</button>
-            </div>
-    )
+        <button onClick={onClick} className="btn">
+            {children}
+        </button>
+    );
 }
-
-export default button
