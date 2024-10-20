@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import ImgA from "../assets/icon-arcade.svg";
 import ImgB from "../assets/icon-advanced.svg";
-import ImgC from "../assets/icon-pro.svg";
+import ImgC from "../assets/icon-pro.svg"; 
 
 const Steptwo = ({ formData, setFormData, errors }) => {
-    const [selectedPlan, setSelectedPlan] = useState(formData.plan); // Initialize with formData
+    const [selectedPlan, setSelectedPlan] = useState(formData.plan); 
 
     const handlePlanSelect = (plan) => {
         setSelectedPlan(plan);
-        setFormData({ ...formData, plan }); // Update formData with selected plan
+        setFormData({ ...formData, plan });
     };
 
     return (
@@ -53,7 +53,10 @@ const Steptwo = ({ formData, setFormData, errors }) => {
                     <p className='text-blue-950 text-xl font-semibold'>Pro</p>
                     <p className='text-gray-500'>$15/mo</p>
                 </div>
+            </div>  
+            <div className='bg-slate-800 w-12 h-[30px]'>
             </div>
+            
 
             {errors.plan && <p className='text-red-500'>{errors.plan}</p>} {/* Error Message */}
         </div>

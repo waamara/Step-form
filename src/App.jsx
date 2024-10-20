@@ -62,9 +62,13 @@ export default function App() {
             <Header />
             <div>
                 {renderStep()}
-                <div className="flex justify-between mt-4">
-                    {currentStep > 1 && <Button onClick={handleBack}>Go Back</Button>}
-                    {currentStep < 5 && <Button onClick={handleNext}>Next</Button>}
+                <div className="flex justify-around mt-4">
+                    {currentStep > 1 && <Button onClick={handleBack}
+                    className="bg-blue-500 text-white">
+                    Go Back</Button>}
+                    {currentStep < 5 && <Button onClick={handleNext}
+                    className="bg-blue-500 text-white"
+                    >Next</Button>}
                 </div>
             </div>
         </div>
